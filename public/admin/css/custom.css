@@ -1,0 +1,36 @@
+aside.main-sidebar {
+    background: #024459;
+}
+a.brand-link, .user-panel {
+    border-bottom: 1px solid #c2c7d0 !important;
+}
+.card, .card-header {
+    border-radius: 0px;
+}
+.card-primary .card-header {
+    background: #106b88 !important;
+    color: #fff;
+    padding: 20px;
+    
+}
+.card-primary .card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* FORM */
+.submit-btn button {
+    padding: 8px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #106b88;
+    border: 1px solid #106b88;
+    color: #fff;
+}
+label {
+    color: #106b88;
+}
+
