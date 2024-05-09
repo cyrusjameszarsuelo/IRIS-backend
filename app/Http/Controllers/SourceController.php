@@ -12,7 +12,7 @@ class SourceController extends Controller
      */
     public function index()
     {
-        //
+        return Source::all();
     }
 
     /**

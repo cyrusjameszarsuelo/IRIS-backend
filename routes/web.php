@@ -125,14 +125,14 @@ Route::get('/', function () {
 
 
 
-// Route::get('/checkDB', function (){
-//     // Test database connection
-//     try {
-//         DB::connection()->getPdo();
-//     } catch (\Exception $e) {
-//         die("Could not connect to the database.  Please check your configuration. error:" . $e );
-//     }
-// }); 
+Route::get('/checkDB', function (){
+    // Test database connection
+    try {
+        DB::connection()->getPdo();
+    } catch (\Exception $e) {
+        die("Could not connect to the database.  Please check your configuration. error:" . $e );
+    }
+}); 
 
 // Route::get('/migrate', function() {
 //     Artisan::call('migrate');
