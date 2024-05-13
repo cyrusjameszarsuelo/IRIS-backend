@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SourceController;
+use App\Http\Controllers\VacancyTypeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/sources', [SourceController::class, 'index']);
+Route::get('/vacancyType', [VacancyTypeController::class, 'index']);

@@ -12,7 +12,7 @@ class VacancyTypeController extends Controller
      */
     public function index()
     {
-        //
+        return VacancyType::all();
     }
 
     /**
